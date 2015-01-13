@@ -35,6 +35,7 @@ add_filter('body_class', 'roots_sidebar_body_class');
  */
 function roots_display_sidebar() {
   static $display;
+  $display = false;
 
   if (!isset($display)) {
     $sidebar_config = new Roots_Sidebar(
