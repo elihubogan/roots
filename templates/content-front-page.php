@@ -6,60 +6,147 @@
     <?php echo do_shortcode('[metaslider id=573]'); ?>
 </div>
 <div class="container text-center">
-<div class="col-sm-12">our work</div>
-<div class="row">
-<div class="col-sm-3">OUR MISSION</div>
-<div class="col-sm-3">OUR HISTORY</div> 
-<div class="col-sm-3">OUR COLLECTION</div>
-<div class="col-sm-3">YOUR FACE</div>
-</div>
+    <div class="col-sm-12"><h3>OUR WORK</h3></div>
+    <div class="row">
+        <div class="col-sm-3 blurb">
+            <h3>OUR MISSION</h3>
+            <p>We produce heirloom-quality albums, boxes, and prints, and stand behind our products with a lifetime guaranty.</p>
+            <p>We produce heirloom-quality albums, boxes, and prints, and stand behind our products with a lifetime guaranty.</p>
+            <p>We produce heirloom-quality albums, boxes, and prints, and stand behind our products with a lifetime guaranty.</p>
+        </div>
+        <div class="col-sm-3 blurb">
+            <h3>OUR HISTORY</h3>
+            <p>We produce heirloom-quality albums, boxes, and prints, and stand behind our products with a lifetime guaranty.</p>
+            <p>We produce heirloom-quality albums, boxes, and prints, and stand behind our products with a lifetime guaranty.</p>
+            <p>We produce heirloom-quality albums, boxes, and prints, and stand behind our products with a lifetime guaranty.</p>
+        </div> 
+        <div class="col-sm-3 blurb">
+            <h3>OUR COLLECTORS</h3>
+            <p>We produce heirloom-quality albums, boxes, and prints, and stand behind our products with a lifetime guaranty.</p>
+            <p>We produce heirloom-quality albums, boxes, and prints, and stand behind our products with a lifetime guaranty.</p>
+            <p>We produce heirloom-quality albums, boxes, and prints, and stand behind our products with a lifetime guaranty.</p>
+        </div>
+        <div class="col-sm-3 blurb">
+            <h3>YOUR FACE</h3>
+            <p>We produce heirloom-quality albums, boxes, and prints, and stand behind our products with a lifetime guaranty.</p>
+            <p>We produce heirloom-quality albums, boxes, and prints, and stand behind our products with a lifetime guaranty.</p>
+            <p>We produce heirloom-quality albums, boxes, and prints, and stand behind our products with a lifetime guaranty.</p>
+        </div>
+    </div>
 
 </div>
 <div class="container text-center">
-   INTRODUCTING NEVE BIEN FAIT 
+  <h3>INTRODUCTING NEVE BIEN FAIT</h3>
     <p>Our 'ready-to-wear' collection is available for the first time to the general public</p>
+    <p style="padding-bottom:25px;">The Bien Fait collection includes a hand-picked selection of fabrics and styles, which ship within a week</p>
+    <a href="<?php echo get_permalink( woocommerce_get_page_id( 'shop' ) ); ?>">
     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/home-bien-fait.jpg" />
+    <p style="padding:25px 0 0;">SHOP NOW</p>
+    </a>
+
+    
 </div>
 <div class="container text-center">
-    <div class="col-sm-12">NEW DESIGNS</div>
+    <div class="col-sm-12">
+        <h3>NEWLY LAUNCHED FOR PROFESSIONALS ONLY</h3>
+    </div>
     <div class="col-sm-4 col-sm-offset-4">
-    <?php echo do_shortcode('[featured_products per_page="1" columns="1"]'); ?>
+        <?php echo do_shortcode('[featured_products per_page="1" columns="1"]'); ?>
     </div>
 </div>
 <div class="container text-center">
-    the bien fait shop 
+    <h3>NEW TO THE BIEN FAIT SHOP</h3>
     <?php echo do_shortcode('[featured_products per_page="3" columns="3"]'); ?>
 </div>
 <div id="events" class="container text-center">
-    upcoming events and tastings
-    <p>[WP LOOP WITH EVENTS]</p>
+    <h3>UPCOMING EVENTS</h3>
     <div class="row">
-        <div class="col-sm-3">MCVEY WORKSHOP BEND</div>
-        <div class="col-sm-3">MCVEY WORKSHOP ELK</div> 
-        <div class="col-sm-3">KURT BOOMER WORKSHOP</div>
-        <div class="col-sm-3">Artist Holiday with Jen Huang
+        <div class="col-sm-3 boxed">
+            <h3>BLISS AND BOKEH</h3>
+            <p>Charleston, SC</p>
+            <p>March 20-23, 2015</p>
+        </div>
+        <div class="col-sm-3 boxed">
+            <h3>WPPI</h3>
+            <p>Las Vegas, NV</p>
+            <p>March 3-5, 2015</p>
+        </div>
+        <div class="col-sm-3 boxed">
+           <h3>ERICH MCVEY WORKSHOP</h3>
+            <p>Elk, CA</p>
+            <p>May 5, 2015</p>
+        </div>
+        <div class="col-sm-3 boxed">
+            <h3>ARTIST HOLIDAY<br/>WITH JEN HUANG</h3>
             <p>Santa Barbara, CA</p>
             <p>April 20-23, 2015</p>
         </div>
     </div>
 </div>
 <div id="journal" class="container text-center">
-    the neve journal 
-    <p>[WP LOOP WITH BLOG POSTS]</p>
     <div class="row">
-        <div class="col-sm-3">NEW GUESTBOOK</div>
-        <div class="col-sm-3">HOW TO USE INDESIGN</div> 
-        <div class="col-sm-3">SMART ALBUMS</div>
-        <div class="col-sm-3">DROP SHIPPING</div>
+        <h3>LES NOUVELLES</h3>
+        <div class="col-sm-3 blurb">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/home-journal.jpg" width:150px style="padding:10px" />
+            <h3>NEW GUESTBOOK</h3>
+            <p>We produce heirloom-quality albums, boxes, and prints, and stand behind our products with a lifetime guaranty.</p>
+            <p>We produce heirloom-quality albums, boxes, and prints, and stand behind our products with a lifetime guaranty.</p>
+            <p>We produce heirloom-quality albums, boxes, and prints, and stand behind our products with a lifetime guaranty.</p>
+        </div>
+        <div class="col-sm-3 blurb">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/home-journal.jpg" width:150px style="padding:10px" />
+            <h3>HOW TO USE INDESIGN</h3>
+            <p>We produce heirloom-quality albums, boxes, and prints, and stand behind our products with a lifetime guaranty.</p>
+            <p>We produce heirloom-quality albums, boxes, and prints, and stand behind our products with a lifetime guaranty.</p>
+            <p>We produce heirloom-quality albums, boxes, and prints, and stand behind our products with a lifetime guaranty.</p>
+        </div> 
+        <div class="col-sm-3 blurb">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/home-journal.jpg" width:150px style="padding:10px" />
+            <h3>SMART ALBUMS</h3>
+            <p>We produce heirloom-quality albums, boxes, and prints, and stand behind our products with a lifetime guaranty.</p>
+            <p>We produce heirloom-quality albums, boxes, and prints, and stand behind our products with a lifetime guaranty.</p>
+            <p>We produce heirloom-quality albums, boxes, and prints, and stand behind our products with a lifetime guaranty.</p>
+        </div>
+        <div class="col-sm-3 blurb">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/home-journal.jpg" width:150px style="padding:10px" />
+            <h3>DROP SHIPPING</h3>
+            <p>We produce heirloom-quality albums, boxes, and prints, and stand behind our products with a lifetime guaranty.</p>
+            <p>We produce heirloom-quality albums, boxes, and prints, and stand behind our products with a lifetime guaranty.</p>
+            <p>We produce heirloom-quality albums, boxes, and prints, and stand behind our products with a lifetime guaranty.</p>
+        </div>
     </div>
 </div>
 <div id="testimonials" class="container text-center">
-    <div class="col-sm-12">TESTIMONIALS</div>
+    <div class="col-sm-12"><h3>TESTIMONIALS</h3></div>
     <div class="row">
-        <div class="col-sm-3">JEN HUANG</div>
-        <div class="col-sm-3">ERICH MCVEY</div> 
-        <div class="col-sm-3">RYLEE HITCHNER</div>
-        <div class="col-sm-3">TEC PETAJA</div>
+        <div class="col-sm-3">
+            <p>We produce heirloom-quality albums, boxes, and prints, and stand behind our products with a lifetime guaranty.</p>
+            <a href="http://jenhuangblog.com" target="_blank">
+            <img class="circular" src="<?php echo get_template_directory_uri(); ?>/assets/img/testimonial-img.jpg"/>
+            <h3>JEN HUANG</h3>
+            </a>
+        </div>
+        <div class="col-sm-3">
+            <p>We produce heirloom-quality albums, boxes, and prints, and stand behind our products with a lifetime guaranty.</p>
+            <a href="http://jenhuangblog.com" target="_blank">
+            <img class="circular" src="<?php echo get_template_directory_uri(); ?>/assets/img/testimonial-img.jpg"/>
+            <h3>ERICH MCVEY</h3>
+            </a>
+        </div>
+        <div class="col-sm-3">
+            <p>We produce heirloom-quality albums, boxes, and prints, and stand behind our products with a lifetime guaranty.</p>
+            <a href="http://jenhuangblog.com" target="_blank">
+            <img class="circular" src="<?php echo get_template_directory_uri(); ?>/assets/img/testimonial-img.jpg"/>
+            <h3>RYLEE HITCHNER</h3>
+            </a>
+        </div>
+        <div class="col-sm-3">
+            <p>We produce heirloom-quality albums, boxes, and prints, and stand behind our products with a lifetime guaranty.</p>
+            <a href="http://jenhuangblog.com" target="_blank">
+            <img class="circular" src="<?php echo get_template_directory_uri(); ?>/assets/img/testimonial-img.jpg"/>
+            <h3>TEC PETAJA</h3>
+            </a>
+        </div>
     </div>
 </div>
 <div class="container text-center">

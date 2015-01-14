@@ -5,6 +5,47 @@ body {
 }
 a {
     color: @link-color;
+    &:hover {
+        text-decoration: none;
+    }
+}
+ul, li {
+    list-style-type: none;
+}
+/* typography */
+h3 { 
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+.blurb {
+    padding-bottom: 50px;
+    h3 {
+        text-align: center;
+    }
+    text-align: justify;
+    p {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+.boxed {
+    border: 1px solid @gray;
+    padding: 5px;
+}
+.col-sm-3.boxed {
+    width: 23%;
+    margin: 1%;
+    min-height: 160px;
+}
+.circular {
+    width: 100px; 
+    height: 100px;
+    border-radius: 50px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: rgba(231, 231, 231, 0.19);
 }
 
 /* navbar */
@@ -21,9 +62,9 @@ a {
 .main { margin-top: 100px; }
 
 .home .main .container {
-    min-height: 500px;
     margin-top: 25px;
-    padding: 25px 0;
+    margin-bottom: 50px;
+    padding: 0 0 25px;
     border-bottom: 1px solid @gray;
 }
 .container img {
