@@ -19,7 +19,10 @@ module.exports = function(grunt) {
     'assets/vendor/bootstrap/js/tab.js',
     'assets/vendor/bootstrap/js/affix.js',
     'assets/js/plugins/*.js',
-    'assets/js/_*.js'
+    'assets/js/_*.js',
+    //'assets/vendor/jquery.easing/js/jquery.easing.min.js'
+    'assets/vendor/jquery.localScroll/jquery.localScroll.js',
+    'assets/vendor/jquery.scrollTo/jquery.scrollTo.js'
   ];
 
   grunt.initConfig({

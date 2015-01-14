@@ -30,7 +30,7 @@
     the bien fait shop 
     <?php echo do_shortcode('[featured_products per_page="3" columns="3"]'); ?>
 </div>
-<div class="container text-center">
+<div id="events" class="container text-center">
     upcoming events and tastings
     <p>[WP LOOP WITH EVENTS]</p>
     <div class="row">
@@ -43,7 +43,7 @@
         </div>
     </div>
 </div>
-<div class="container text-center">
+<div id="journal" class="container text-center">
     the neve journal 
     <p>[WP LOOP WITH BLOG POSTS]</p>
     <div class="row">
@@ -53,7 +53,7 @@
         <div class="col-sm-3">DROP SHIPPING</div>
     </div>
 </div>
-<div class="container text-center">
+<div id="testimonials" class="container text-center">
     <div class="col-sm-12">TESTIMONIALS</div>
     <div class="row">
         <div class="col-sm-3">JEN HUANG</div>
@@ -65,4 +65,5 @@
 <div class="container text-center">
     Inquire
     <p>[INQUIRE FORM]</p>
+    <?php echo do_shortcode('[gravityform id="1" title=false ajax=true]'); ?>
 </div>

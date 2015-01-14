@@ -28,7 +28,15 @@ var Roots = {
   // Home page
   home: {
     init: function() {
+        $('.navbar-fixed-top > a').bind('click', function(event) {
+            var $anchor = $(this);
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top
+            }, 1500, 'easeInOutExpo');
+            event.preventDefault();
+        });
       // JavaScript to be fired on the home page
+        $('#events').localScroll();
     }
   },
   // About us page, note the change from about-us to about_us.
