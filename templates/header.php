@@ -16,6 +16,14 @@
           wp_nav_menu(array('theme_location' => 'primary_navigation', 'walker' => new Roots_Nav_Walker(), 'menu_class' => 'nav navbar-nav'));
         endif;
       ?>
+<div class="navbar-login">
+                <?php if ( is_user_logged_in() ) { ?>
+                    <a href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>" title="<?php _e('My Account','woothemes'); ?>"><?php _e('My Account','woothemes'); ?></a>
+                <?php } 
+                else { ?>
+                    <a href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>" title="<?php _e('Login / Register','woothemes'); ?>"><?php _e('Login / Register','woothemes'); ?></a>
+                <?php } ?>
+</div>
     </nav>
   </div>
 </header>

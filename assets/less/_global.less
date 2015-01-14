@@ -1,12 +1,21 @@
 
 body {
     font-family: 'Josefin Slab', serif;
+    color: @text;
 }
+a {
+    color: @link-color;
+}
+
+/* navbar */
 .navbar-fixed-top { padding-top: 50px; }
 
 .navbar-default { 
     background-color: #fff; 
 }
+.navbar-login { float: left; padding: 15px; } 
+
+/* header */
 .page-header { margin-top: 70px; }
 
 .main { margin-top: 100px; }
@@ -26,4 +35,9 @@ body {
 }
 .tablepress img {
     max-width: 200px;
+}
+
+/* woocommerce overrides */
+.woocommerce ul.products li.product .price, .woocommerce-page ul.products li.product .price {
+    color: @link-color;
 }

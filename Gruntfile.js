@@ -20,7 +20,7 @@ module.exports = function(grunt) {
     'assets/vendor/bootstrap/js/affix.js',
     'assets/js/plugins/*.js',
     'assets/js/_*.js',
-    //'assets/vendor/jquery.easing/js/jquery.easing.min.js'
+    'assets/vendor/jquery.easing/js/jquery.easing.js',
     'assets/vendor/jquery.localScroll/jquery.localScroll.js',
     'assets/vendor/jquery.scrollTo/jquery.scrollTo.js'
   ];
@@ -148,7 +148,9 @@ module.exports = function(grunt) {
         // Browser live reloading
         // https://github.com/gruntjs/grunt-contrib-watch#live-reloading
         options: {
-          livereload: false
+          //livereload: false
+          livereload: true 
+          //livereload: 80 
         },
         files: [
           'assets/css/main.css',

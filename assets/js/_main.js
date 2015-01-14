@@ -22,8 +22,17 @@ var Roots = {
   // All pages
   common: {
     init: function() {
-      // JavaScript to be fired on all pages
-      jQuery.localScroll();
+        // JavaScript to be fired on all pages
+        jQuery.localScroll({
+            //duration: 3000,
+            //easing: 'easeOutQuint'
+            //easing: 'swing'
+            //easing: 'easeInOutExpo'
+            //easing: 'jswing'
+            //easing: 'easeOutQuint'
+            offset: -100,
+            easing: 'easeInOutCirc'
+        });
     }
   },
   // Home page
