@@ -47,6 +47,9 @@ h3 {
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     background-color: rgba(231, 231, 231, 0.19);
 }
+.woocommerce #content div.product p.price, .woocommerce #content div.product span.price, .woocommerce div.product p.price, .woocommerce div.product span.price, .woocommerce-page #content div.product p.price, .woocommerce-page #content div.product span.price, .woocommerce-page div.product p.price, .woocommerce-page div.product span.price {
+    color: @gray; 
+}
 
 /* navbar */
 .navbar-fixed-top { padding-top: 50px; }
@@ -54,18 +57,45 @@ h3 {
 .navbar-default { 
     background-color: #fff; 
 }
-.navbar-login { float: left; padding: 15px; } 
+.navbar-login { 
+    float: none; 
+    display: inline-block;
+    padding: 15px; 
+    letter-spacing: 2px;
+} 
+
+.navbar-brand { 
+    margin: 0;
+    padding: 0;
+}
+/* center navbar */
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
 
 /* header */
 .page-header { margin-top: 70px; }
 
-.main { margin-top: 100px; }
+.main { 
+    margin-top: 200px; 
+}
 
 .home .main .container {
     margin-top: 25px;
     margin-bottom: 50px;
     padding: 0 0 25px;
     border-bottom: 1px solid @gray;
+    &:first-child {
+        //margin-top: 125px;
+    }    
 }
 .container img {
     max-width: 100%;
@@ -81,4 +111,13 @@ h3 {
 /* woocommerce overrides */
 .woocommerce ul.products li.product .price, .woocommerce-page ul.products li.product .price {
     color: @link-color;
+}
+.woocommerce #content div.product .woocommerce-tabs, .woocommerce div.product .woocommerce-tabs, .woocommerce-page #content div.product .woocommerce-tabs, .woocommerce-page div.product .woocommerce-tabs {
+    clear: none;
+    float: left;
+    width: 48%;
+}
+/* footer */
+footer {
+    margin: 50px;
 }

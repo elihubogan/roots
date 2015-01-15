@@ -5,7 +5,7 @@
 <div class="container">
     <?php echo do_shortcode('[metaslider id=573]'); ?>
 </div>
-<div class="container text-center">
+<div id="about" class="container text-center">
     <div class="col-sm-12"><h3>OUR WORK</h3></div>
     <div class="row">
         <div class="col-sm-3 blurb">
@@ -150,7 +150,7 @@
     </div>
 </div>
 <div class="container text-center">
-    Inquire
-    <p>[INQUIRE FORM]</p>
-    <?php echo do_shortcode('[gravityform id="1" title=false ajax=true]'); ?>
+    <h3>CONTACT US</h3>
+    <p>Neve Albums are available exclusively to the professional artist and photographer community. Send us a note with your website for access!</p>
+    <?php echo do_shortcode('[contact-form-7 id="583" title="Contact form 1"]'); ?>
 </div>

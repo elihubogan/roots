@@ -30,7 +30,7 @@ var Roots = {
             //easing: 'easeInOutExpo'
             //easing: 'jswing'
             //easing: 'easeOutQuint'
-            offset: -100,
+            offset: -250,
             easing: 'easeInOutCirc'
         });
     }
