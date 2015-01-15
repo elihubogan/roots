@@ -37,3 +37,5 @@ function bogdev_hide_shop_category( $q ) {
     remove_action( 'pre_get_posts', 'custom_pre_get_posts_query' );
 
 }
+
+//add_filter( 'woocommerce_enqueue_styles', '__return_empty_array' );
