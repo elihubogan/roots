@@ -117,7 +117,19 @@ h3 {
     float: left;
     width: 48%;
 }
+
+.woocommerce #content div.product p.stock, .woocommerce div.product p.stock, .woocommerce-page #content div.product p.stock, .woocommerce-page div.product p.stock {
+    font-size: 1.0em;
+}
+
 /* footer */
 footer {
     margin: 50px;
+}
+/* breakpoints */
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { 
+    .summary.entry-summary {
+        min-height: 550px; // ensure tabs break to left
+    }
 }

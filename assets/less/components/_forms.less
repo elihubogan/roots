@@ -11,10 +11,14 @@
   padding-left: 1px;
   color: @state-danger-text;
 }
+.wpcf7-form-control,
+.variations select,
+.woocommerce-ordering select,
 .ginput_container input,
 .ginput_container select,
 .ginput_container textarea {
   .form-control();
+  color: @dark-gray;
 }
 .ginput_container textarea {
   height: auto;
@@ -44,3 +48,58 @@
   .alert();
   .alert-success();
 }
+/* contact form */
+
+.wpcf7-form-control.wpcf7-submit {
+    background-color: @gray;
+    border: 1px solid @dark-gray ;
+    color: @text;
+    width: 25%;
+    float: left;
+}
+input[name="your-first-name"] {
+    margin-bottom: 10px;
+}
+textarea {
+    resize: none;
+}
+div.wpcf7-validation-errors {
+    border: 2px solid @gray;
+    padding: 15px;
+}
+.wpcf7-not-valid-tip {
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+/* woocommerce */
+.woocommerce #content input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce-page #content input.button.alt, .woocommerce-page #respond input#submit.alt, .woocommerce-page a.button.alt, .woocommerce-page button.button.alt, .woocommerce-page input.button.alt {
+    background-color: @dark-gray;
+    border-color: @dark-gray;
+    background-image: none;
+}
+.woocommerce #content input.button.alt:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce-page #content input.button.alt:hover, .woocommerce-page #respond input#submit.alt:hover, .woocommerce-page a.button.alt:hover, .woocommerce-page button.button.alt:hover, .woocommerce-page input.button.alt:hover {
+    background-color: @darker-gray;
+    border-color: @dark-gray;
+    background-image: none;
+}
+
+/* single product variation form */
+table.variations {
+    width: 100%;
+    td.label label{
+        //display: none;
+        font-size: 14px;
+        color: @text-color;
+        display: inline-block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    td.value {
+        width: 100%;
+        display: block;
+        height: 34px;
+        font-size: 14px;
+    }
+}
+

@@ -17,7 +17,7 @@ remove_action( 'woocommerce_sidebar', 'woocommerce_get_sidebar', 10);
 
 
 /* 20150114 - hide category from shop */
-add_action( 'pre_get_posts', 'bogdev_hide_shop_category' );
+//add_action( 'pre_get_posts', 'bogdev_hide_shop_category' );
 function bogdev_hide_shop_category( $q ) {
 
     if ( ! $q->is_main_query() ) return;

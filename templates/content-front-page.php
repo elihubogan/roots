@@ -160,6 +160,6 @@
 </div>
 <div class="container text-center">
     <h3>CONTACT US</h3>
-    <p>Neve Albums are available exclusively to the professional artist and photographer community. Send us a note with your website for access!</p>
+    <p style="padding-bottom:25px">Neve Albums are available exclusively to the professional artist and photographer community. Send us a note with your website for access!</p>
     <?php echo do_shortcode('[contact-form-7 id="583" title="Contact form 1"]'); ?>
 </div>
