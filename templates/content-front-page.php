@@ -8,25 +8,25 @@
 <div id="about" class="container text-center">
     <div class="col-sm-12"><h3>WHO WE ARE</h3></div>
     <div class="row">
-        <div class="col-sm-3 blurb">
+        <div class="col-sm-6 col-lg-3 blurb">
             <h3>OUR BELIEFS</h3>
             <p>We believe that artists who create extraordinary work should have extraordinary albums.</p>
             <p>We believe that fast is slow, and that album design and production, like photography, is an art form that takes a lifetime to master.</p>
             <p>We believe in our collectors, and support everything that they do.</p>
         </div>
-        <div class="col-sm-3 blurb">
+        <div class="col-sm-6 col-lg-3 blurb">
             <h3>OUR PROCESS</h3>
             <p>As a small boutique, we create all of our products by hand, one at a time. Each giclée page is individually examined, and we work with our clients to ensure true color in printing.</p>
             <p>Our albums and boxes are bound start-to-finish by master binders, which gives us superior quality control and pride of ownership.</p>
             <p>There are no shortcuts to true quality. Neve produces heirloom albums, boxes, and prints, and we stand behind our products with a lifetime guaranty.</p>
         </div> 
-        <div class="col-sm-3 blurb">
+        <div class="col-sm-6 col-lg-3 blurb">
             <h3>OUR COLLECTORS</h3>
             <p>Neve works with fine-art photographers and other visual artists who are in need of exceptional products for their clients.</p>
             <p>Our collectors hone their art one image at a time, and we work together with them to make each image as impactful as possible.</p>
             <p>Our custom-built albums and boxes are exclusive to the trade, and we make a point to explore new ideas constantly with our partners.</p>
         </div>
-        <div class="col-sm-3 blurb">
+        <div class="col-sm-6 col-lg-3 blurb">
             <h3>OUR MESSAGE</h3>
             <p>You are an artist. Value your time above all things.</p>
             <p>Less is more. Over-designed mosaics distract rather than enhance.</p>
@@ -98,26 +98,26 @@
 <div id="journal" class="container text-center">
     <div class="row">
         <h3>LES NOUVELLES</h3>
-        <div class="col-sm-3 blurb">
+        <div class="col-sm-6 col-lg-3 blurb">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/home-journal.jpg" width:150px style="padding:10px" />
             <h3 style="min-height: 30px">GUESTBOOKS AVAILABLE!</h3>
             <p>Coming soon to Neve Bien Fait are custom-stamped guestbooks for wedding guests or for newly-married couples to install at home for callers</p>
             <p>Bound using the same exacting standards as our albums, printed on 100% acid-free wood pulp papers</p>
         </div>
-        <div class="col-sm-3 blurb">
+        <div class="col-sm-6 col-lg-3 blurb">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/home-journal.jpg" width:150px style="padding:10px" />
             <h3 style="min-height: 30px">ADOBE INDESIGN<br />FOR FUN AND PROFIT</h3>
             <p>In this article we give you a few tips on using InDesign for album layout.</p>
             <p>While other commercial products abound, we consistently return to InDesign for its flexibility and ease-of-use.</p>
             <p>Hint: if layout takes more than an hour, you're doing it wrong!</p>
         </div> 
-        <div class="col-sm-3 blurb">
+        <div class="col-sm-6 col-lg-3 blurb">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/home-journal.jpg" width:150px style="padding:10px" />
             <h3 style="min-height: 30px">SMART(er) ALBUMS</h3>
             <p>Neve Albums were recently added to the Smart Albums collection, and we wanted to point out a few tips about how to get the most out of this program</p>
             <p>With Smart Albums 2.0, most of our reservations have been resolved and we can happily say we love their product!</p>
         </div>
-        <div class="col-sm-3 blurb">
+        <div class="col-sm-6 col-lg-3 blurb">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/home-journal.jpg" width:150px style="padding:10px" />
             <h3 style="min-height: 30px">DROP SHIPPING</h3>
             <p>Shipping takes time and money, and for our international clientele, customs duties can be prohibitive.</p>

@@ -39,3 +39,12 @@ function bogdev_hide_shop_category( $q ) {
 }
 
 //add_filter( 'woocommerce_enqueue_styles', '__return_empty_array' );
+//
+
+/**
+ * @desc Remove in all product type
+ */
+function wc_remove_all_quantity_fields( $return, $product ) {
+    return true;
+}
+//add_filter( 'woocommerce_is_sold_individually', 'wc_remove_all_quantity_fields', 10, 2 );
