@@ -27,4 +27,22 @@ $('.navbar-collapse ul li a').click(function() {
 */
 
 //$('#events').localScroll();
+//
+$(window).bind("load", function() {
+   window.scrollTo = function (selector) {
+        if (selector === '') { return; }
 
+        return $('html, body').animate({
+            scrollTop: $('#' + selector).offset().top - 250 
+        //}, 'slow');
+        }, 1500, 'easeInOutCirc');
+
+    };
+    $(document).ready(function () {
+        scrollTo(window.location.hash.replace(/^\#/, ''));
+    }); 
+    $.localScroll({
+        offset: -250,
+        easing: 'easeInOutCirc'
+    });
+});

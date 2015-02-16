@@ -23,6 +23,9 @@ var Roots = {
   common: {
     init: function() {
         // JavaScript to be fired on all pages
+
+/* 20140215 - functioning, doesn't work with external */
+/*
         jQuery.localScroll({
             //duration: 3000,
             //easing: 'easeOutQuint'
@@ -33,6 +36,15 @@ var Roots = {
             offset: -250,
             easing: 'easeInOutCirc'
         });
+*/
+/*
+        $(window).on("load", function () {
+            var urlHash = window.location.href.split("#")[1];
+            $('html,body').animate({
+                scrollTop: $('.' + urlHash).offset('250').top
+            }, 4000);
+        });
+*/
     }
   },
   // Home page
