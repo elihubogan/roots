@@ -46,7 +46,7 @@
 
     
 </div>
-<div class="container text-center">
+<div class="container text-center hidden">
     <div class="col-sm-12">
         <h3>NEWLY LAUNCHED FOR INDUSTRY ONLY</h3>
     </div>
@@ -66,24 +66,10 @@
     <p>We travel quite a bit spreading the good word. Let us know where you are and we'll let you know when we're coming!</p>
     <div class="row">
         <div class="col-sm-3 boxed">
-            <a href="http://nevealbums.dev/neve-albums-bliss-and-bokeh/">
-                <h3 style="min-height: 30px">BLISS AND BOKEH</h3>
-                <p>Charleston, SC</p>
-                <p>March 20-23, 2015</p>
-            </a>
-        </div>
-        <div class="col-sm-3 boxed">
             <a href="http://nevealbums.dev/neve-wppi-2015/">
                 <h3 style="min-height: 30px">WPPI</h3>
                 <p>Las Vegas, NV</p>
-                <p>March 3-5, 2015</p>
-            </a>
-        </div>
-        <div class="col-sm-3 boxed">
-            <a href="http://nevealbums.dev/erich-mcvey-workshops-elk-2015/">
-                <h3 style="min-height: 30px">ERICH MCVEY WORKSHOP</h3>
-                <p>Elk, CA</p>
-                <p>May 5, 2015</p>
+                <p>March 2-4, 2015</p>
             </a>
         </div>
         <div class="col-sm-3 boxed">
@@ -91,6 +77,20 @@
                 <h3 style="min-height: 30px">ARTIST HOLIDAY<br/>WITH JEN HUANG</h3>
                 <p>Santa Barbara, CA</p>
                 <p>April 20-23, 2015</p>
+            </a>
+        </div>
+        <div class="col-sm-3 boxed">
+            <a href="http://nevealbums.dev/neve-albums-bliss-and-bokeh/">
+                <h3 style="min-height: 30px">BLISS AND BOKEH</h3>
+                <p>Charleston, SC</p>
+                <p>May 4-7, 2015</p>
+            </a>
+        </div>
+        <div class="col-sm-3 boxed">
+            <a href="http://nevealbums.dev/fount-workshop-2015/">
+                <h3 style="min-height: 30px">FOUNT WORKSHOP</h3>
+                <p>Wiscasset, ME</p>
+                <p>May 19-21, 2015</p>
             </a>
         </div>
     </div>
