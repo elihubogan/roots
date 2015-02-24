@@ -48,3 +48,9 @@ function wc_remove_all_quantity_fields( $return, $product ) {
     return true;
 }
 //add_filter( 'woocommerce_is_sold_individually', 'wc_remove_all_quantity_fields', 10, 2 );
+//
+
+// 20150224 - show 24 products per page
+// Display 24 products per page. Goes in functions.php
+add_filter( 'loop_shop_per_page', create_function( '$cols', 'return 24;' ), 20 );
+
