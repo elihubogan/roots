@@ -3,7 +3,7 @@
 
 
 <div class="container">
-    <?php echo do_shortcode('[metaslider id=573]'); ?>
+    <?php echo do_shortcode('[metaslider id=653]'); ?>
 </div>
 <div id="about" class="container text-center">
     <div class="col-sm-12"><h3>WHO WE ARE</h3></div>
@@ -66,28 +66,28 @@
     <p>We travel quite a bit spreading the good word. Let us know where you are and we'll let you know when we're coming!</p>
     <div class="row">
         <div class="col-sm-3 boxed">
-            <a href="http://nevealbums.dev/neve-wppi-2015/">
+            <a href="http://nevealbums.com/neve-wppi-2015/">
                 <h3 style="min-height: 30px">WPPI</h3>
                 <p>Las Vegas, NV</p>
                 <p>March 2-4, 2015</p>
             </a>
         </div>
         <div class="col-sm-3 boxed">
-            <a href="http://nevealbums.dev/jen-huang-artist-holiday-2015/">
+            <a href="http://nevealbums.com/jen-huang-artist-holiday-2015/">
                 <h3 style="min-height: 30px">ARTIST HOLIDAY<br/>WITH JEN HUANG</h3>
                 <p>Santa Barbara, CA</p>
                 <p>April 20-23, 2015</p>
             </a>
         </div>
         <div class="col-sm-3 boxed">
-            <a href="http://nevealbums.dev/neve-albums-bliss-and-bokeh/">
+            <a href="http://nevealbums.com/neve-albums-bliss-and-bokeh/">
                 <h3 style="min-height: 30px">BLISS AND BOKEH</h3>
                 <p>Charleston, SC</p>
                 <p>May 4-7, 2015</p>
             </a>
         </div>
         <div class="col-sm-3 boxed">
-            <a href="http://nevealbums.dev/fount-workshop-2015/">
+            <a href="http://nevealbums.com/fount-workshop-2015/">
                 <h3 style="min-height: 30px">FOUNT WORKSHOP</h3>
                 <p>Wiscasset, ME</p>
                 <p>May 19-21, 2015</p>
@@ -161,5 +161,5 @@
 <div class="container text-center">
     <h3>CONTACT US</h3>
     <p style="padding-bottom:25px">Neve Albums are available exclusively to the professional artist and photographer community. Send us a note with your website for access!</p>
-    <?php echo do_shortcode('[contact-form-7 id="583" title="Contact form 1"]'); ?>
+    <?php echo do_shortcode('[contact-form-7 id="673" title="Contact form 1"]'); ?>
 </div>
