@@ -99,26 +99,26 @@
     <div class="row">
         <h3>LES NOUVELLES</h3>
         <div class="col-sm-6 col-lg-3 blurb">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/home-journal.jpg" width:150px style="padding:10px" />
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/home-journal-250.jpg" width:150px style="padding:10px" />
             <h3 style="min-height: 30px">GUESTBOOKS AVAILABLE!</h3>
             <p>Coming soon to Neve Bien Fait are custom-stamped guestbooks for wedding guests or for newly-married couples to install at home for callers</p>
             <p>Bound using the same exacting standards as our albums, printed on 100% acid-free wood pulp papers</p>
         </div>
         <div class="col-sm-6 col-lg-3 blurb">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/home-journal.jpg" width:150px style="padding:10px" />
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/home-journal-250.jpg" width:150px style="padding:10px" />
             <h3 style="min-height: 30px">ADOBE INDESIGN<br />FOR FUN AND PROFIT</h3>
             <p>In this article we give you a few tips on using InDesign for album layout.</p>
             <p>While other commercial products abound, we consistently return to InDesign for its flexibility and ease-of-use.</p>
             <p>Hint: if layout takes more than an hour, you're doing it wrong!</p>
         </div> 
         <div class="col-sm-6 col-lg-3 blurb">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/home-journal.jpg" width:150px style="padding:10px" />
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/home-journal-250.jpg" width:150px style="padding:10px" />
             <h3 style="min-height: 30px">SMART(er) ALBUMS</h3>
             <p>Neve Albums were recently added to the Smart Albums collection, and we wanted to point out a few tips about how to get the most out of this program</p>
             <p>With Smart Albums 2.0, most of our reservations have been resolved and we can happily say we love their product!</p>
         </div>
         <div class="col-sm-6 col-lg-3 blurb">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/home-journal.jpg" width:150px style="padding:10px" />
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/home-journal-250.jpg" width:150px style="padding:10px" />
             <h3 style="min-height: 30px">DROP SHIPPING</h3>
             <p>Shipping takes time and money, and for our international clientele, customs duties can be prohibitive.</p>
             <p>Here we walk you through our white-branding and drop shipping process, showing you how you can trust us to deliver straight to your clients without undermining your brand.</p>
