@@ -3,6 +3,9 @@
 <div class="alert alert-warning">
   <?php _e('Sorry, but the page you were trying to view does not exist.', 'roots'); ?>
 </div>
+<div class="alert alert-info">
+    This may a page you have to <a href="https://nevealbums.com/my-account/">log in</a> to view - if so, just click the <a href="https://nevealbums.com/my-account/">'LOGIN'</a> link in the menu above and try the url again 
+</div>
 
 <p><?php _e('It looks like this was the result of either:', 'roots'); ?></p>
 <ul>
