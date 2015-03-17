@@ -4,7 +4,7 @@
       <h1 class="entry-title text-center"><?php the_title(); ?></h1>
       <?php get_template_part('templates/entry-meta'); ?>
     </header>
-    <div class="entry-content text-center">
+    <div class="entry-content text-center col-sm-8 col-sm-offset-2">
       <?php the_content(); ?>
     </div>
     <footer>
