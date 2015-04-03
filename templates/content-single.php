@@ -1,10 +1,10 @@
 <?php while (have_posts()) : the_post(); ?>
   <article <?php post_class(); ?>>
     <header>
-      <h1 class="entry-title text-center"><?php the_title(); ?></h1>
+      <h2 class="entry-title text-center"><?php the_title(); ?></h2>
       <?php get_template_part('templates/entry-meta'); ?>
     </header>
-    <div class="entry-content text-center col-sm-8 col-sm-offset-2">
+    <div class="entry-content col-sm-8 col-sm-offset-2">
       <?php the_content(); ?>
     </div>
     <footer>
