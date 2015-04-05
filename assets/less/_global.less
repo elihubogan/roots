@@ -69,18 +69,9 @@ article.post img {
     color: @gray; 
 }
 
-/* navbar */
-.navbar-fixed-top { padding-top: 50px; }
-
 .navbar-default { 
     background-color: #fff; 
 }
-.navbar-login { 
-    float: none; 
-    display: inline-block;
-    padding: 15px; 
-    letter-spacing: 2px;
-} 
 
 .navbar-brand { 
     margin: 0;
@@ -158,8 +149,24 @@ footer {
     margin: 50px;
 }
 /* breakpoints */
+.container>.navbar-header { margin-top: -80px; }
+.navbar-default .navbar-toggle {margin-bottom: 40px;}
+.navbar-login { 
+    float: none; 
+    display: block;
+    padding: 15px; 
+    padding-top: 0;
+} 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: @screen-lg-min) { 
+    /* navbar */
+    .navbar-login { 
+        display: inline-block;
+        padding-top: 15px; 
+    } 
+    .container>.navbar-header { margin-top: 0px; }
+    .navbar-default .navbar-toggle {margin-bottom: 8px;}
+    .navbar-fixed-top { padding-top: 50px; }
     .summary.entry-summary {
         min-height: 550px; // ensure tabs break to left
     }
