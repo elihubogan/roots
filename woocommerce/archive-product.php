@@ -28,7 +28,7 @@ get_header( 'shop' ); ?>
 		<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
 
 			<h1 class="page-title"><?php woocommerce_page_title(); ?></h1>
-            <h3>Note: If you are a professional looking for our custom products, please email hello@nevealbums.com for an account upgrade.</h3>
+            <h3>Note: If you are a professional looking for our custom products, please <a style="color:blue;" href="http://nevealbums.com/login" target="_blank">create an account</a> <em>and then</em> email support@nevealbums.com for an account upgrade. Thanks!</h3>
 
 		<?php endif; ?>
 
