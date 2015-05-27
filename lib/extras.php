@@ -54,3 +54,20 @@ function wc_remove_all_quantity_fields( $return, $product ) {
 // Display 24 products per page. Goes in functions.php
 add_filter( 'loop_shop_per_page', create_function( '$cols', 'return 24;' ), 20 );
 
+
+// 20150527 - add WC email preview
+// https://github.com/WordImpress/woocommerce-preview-emails
+//
+/**
+* Preview WooCommerce Emails.
+* @author WordImpress.com
+* @url https://github.com/WordImpress/woocommerce-preview-emails
+* If you are using a child-theme, then use get_stylesheet_directory() instead
+*/
+
+$preview = get_template_directory() . '/woocommerce/emails/woo-preview-emails.php';
+
+if(file_exists($preview)) {
+    require $preview;
+}
+
