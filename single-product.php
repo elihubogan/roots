@@ -11,9 +11,12 @@
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 get_header( 'shop' ); ?>
+
+<?php if(is_single(1458)) { ?>
 <div style="float:none;width:50%;margin:0 auto;">
     <img src="http://nevealbums.com/static/gfl-logo.jpeg" />
 </div>
+<?php } ?>
 
 	<?php
 		/**
