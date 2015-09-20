@@ -11,6 +11,9 @@
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 get_header( 'shop' ); ?>
+<div style="float:none;width:50%;margin:0 auto;">
+    <img src="http://nevealbums.com/static/gfl-logo.jpeg" />
+</div>
 
 	<?php
 		/**
